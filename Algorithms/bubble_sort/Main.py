@@ -1,6 +1,9 @@
 from random import randint
 import timeit
 
+'''
+Method that sorts the list
+'''
 def bubble_sort(num_array):
     print(num_array)
     tic = timeit.default_timer()
@@ -16,6 +19,9 @@ def bubble_sort(num_array):
     print(num_array)
     print(str(tt))
 
+'''
+Method that returns a list of max random numbers
+'''
 def get_nums(max):
     n = []
     for i in range(0,max):
